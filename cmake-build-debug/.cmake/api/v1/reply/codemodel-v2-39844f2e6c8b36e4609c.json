@@ -1,0 +1,102 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "PDCurses-3.9",
+					"jsonFile" : "directory-PDCurses-3.9-Debug-2c52a786bf7e1a8a405d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "PDCurses-3.9",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Game_Of_Life",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "PDCurse",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Game_Of_Life::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Game_Of_Life-Debug-e83f594d7740bfca83c1.json",
+					"name" : "Game_Of_Life",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pdcurses::@2ddfac04107945df31f5",
+					"jsonFile" : "target-pdcurses-Debug-58d0162327e2ff2b69a0.json",
+					"name" : "pdcurses",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/thoma/Documents/Developpement/Projets/Game_Of_Life/cmake-build-debug",
+		"source" : "C:/Users/thoma/Documents/Developpement/Projets/Game_Of_Life"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
